@@ -10,7 +10,7 @@ fun main(){
 }
 class Human(var name:String,var age:Int,var weight:Int){
     fun eat(foodWeight:Int){
-        println("I am eating {$foodWeight}Kgs of Food")
+        println("I am eating $foodWeight Kgs of Food")
         weight=weight+foodWeight
         println(weight)
     }
